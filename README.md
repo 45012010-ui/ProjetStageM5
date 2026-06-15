@@ -1,17 +1,12 @@
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+### Frameworks et extensions utilisées
 
 - [FastAPI](https://fastapi.tiangolo.com)
 - [Uvicorn](https://uvicorn.dev/)
 - [Psycopg](https://www.psycopg.org/)
 - [Python-multipart](https://github.com/Kludex/python-multipart)
 - [PostgreSQL](https://www.postgresql.org/)
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-### Prerequisites
+### Étapes
 
 Créez un environnement virtuel dans la racine du fichier.
 
@@ -47,7 +42,7 @@ Quand vous avez fini d'utiliser l'application, utilisez cette commande pour ferm
   ```sh
   deactivate
   ```
-## Acknowledgments
+## Sources
 
 Principalement fait en utilisant ce tutoriel:
 
