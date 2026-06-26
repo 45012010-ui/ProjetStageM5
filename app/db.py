@@ -1,11 +1,16 @@
 # Etablit la connection à la BDD
+import os
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
+load_dotenv()
+
 # Update this with your actual database settings
-DATABASE_URL = "postgresql+psycoph://postgres:password@localhost:5432/consultation_db"
-EMBEDDING_MODEL="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-EMBEDDING_DIM=384
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    raise ValueError("Impossible de trouver DATABASE_URL dans le fichier .env")
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
