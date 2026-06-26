@@ -1,11 +1,3 @@
-### Frameworks et extensions utilisées
-
-- [FastAPI](https://fastapi.tiangolo.com)
-- [Uvicorn](https://uvicorn.dev/)
-- [Psycopg](https://www.psycopg.org/)
-- [Python-multipart](https://github.com/Kludex/python-multipart)
-- [PostgreSQL](https://www.postgresql.org/)
-
 ### Étapes
 
 Créez un environnement virtuel dans la racine du fichier.
@@ -44,7 +36,9 @@ Quand vous avez fini d'utiliser l'application, utilisez cette commande pour ferm
   ```
 ## Sources
 
-Principalement fait en utilisant ce tutoriel:
+Principalement fait en utilisant ces tutoriels:
 
 
 - [FastAPI Backend with PostgreSQL: Step By Step Guide for Beginners](https://sharajman.com/blogs/fastapi-backend-with-postgresql-step-by-step-guide-for-beginners/)
+
+- [Bigger Applications - Multiple Files - FastAPI official site]([https://sharajman.com/blogs/fastapi-backend-with-postgresql-step-by-step-guide-for-beginners/](https://fastapi.tiangolo.com/tutorial/bigger-applications/#check-the-automatic-api-docs))
